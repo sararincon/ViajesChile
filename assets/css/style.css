@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+
+/* ABOUT US  */
+
+.title-center {
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.aboutUsText {
+  border-top: 1px #15aabf solid;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.iconos {
+  background-color: #15aabf;
+}
+
+.iconos i {
+  display: block;
+  text-align: center;
+}
+
+.destacados-contenedor {
+  border-top: 1px #15aabf solid;
+  color: #fff;
+  padding-top: 40px;
+}
