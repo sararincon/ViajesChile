@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top viajes-nav">
       <div class="container">
         <a class="navbar-brand" href="#"
           ><img src="assets/img/viajes.svg" alt="viajes" width="50px" />Viajes
@@ -37,22 +37,19 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav "
-        >
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Quienes Somos</a>
+              <a class="nav-link" href="#aboutUs">Quienes Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Destacados</a>
+              <a class="nav-link" href="#destacado">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -96,7 +93,7 @@
     </div>
 
     <section class="aboutUs">
-      <h2 class="title-center">¿Quienes somos?</h2>
+      <h2 id="aboutUs" class="title-center">¿Quienes somos?</h2>
       <div class="container aboutUsText">
         <div class="row mx-auto">
           <div class="col-12 col-md-6 col-lg-4">
@@ -167,9 +164,9 @@
     </section>
 
     <section class="destacados">
-      <h2 class="title-center">DESTACADOS</h2>
+      <h2 id="destacado" class="title-center">DESTACADOS</h2>
       <div class="container destacados-contenedor">
-        <div class="row">
+        <div class="row justify-content-center mx-auto">
           <!-- CARD 1 -->
           <div class="col-12 col-md-6 col-lg-3">
             <div class="card" style="width: 18rem">
@@ -224,12 +221,24 @@
 
     <section class="contactos"></section>
 
-    <footer>
-      <h2>VIAJES CHILE</h2>
-      <i class="fab fa-github-square"></i>
-      <i class="fab fa-linkedin"></i>
-      <i class="fab fa-twitter-square"></i>
-      <i class="fab fa-facebook-square"></i>
+    <footer id="contacto">
+      <div class="container viajes-footer">
+        <h2 class="texto-footer">VIAJES CHILE</h2>
+        <div class="iconos-del-footer">
+          <div class="iconos-footer">
+            <i class="fab fa-github-square fa-2x"></i>
+          </div>
+          <div class="iconos-footer">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </div>
+          <div class="iconos-footer">
+            <i class="fab fa-twitter-square fa-2x"></i>
+          </div>
+          <div class="iconos-footer">
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!--BUNDLE BOOTSTRAP-->

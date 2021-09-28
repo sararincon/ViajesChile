@@ -1,6 +1,9 @@
 body {
   background-color: black;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* ABOUT US  */
 
@@ -30,4 +33,25 @@ body {
   border-top: 1px #15aabf solid;
   color: #fff;
   padding-top: 40px;
+}
+
+footer {
+  background-color: #15aabf;
+}
+
+.viajes-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  flex-wrap: nowrap;
+  padding: 0 90px;
+}
+
+.iconos-del-footer {
+  display: flex;
+}
+
+.iconos-footer {
+  margin-left: 10px;
 }
