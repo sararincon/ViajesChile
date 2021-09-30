@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Viajes Chile</title>
   </head>
+
   <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top viajes-nav">
@@ -92,15 +93,15 @@
       </button>
     </div>
 
-    <section class="aboutUs">
+    <section class="section-aboutUs">
       <h2 id="aboutUs" class="title-center">¿Quienes somos?</h2>
       <div class="container aboutUsText">
-        <div class="row mx-auto">
+        <div class="row">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="iconos">
               <i class="fas fa-plane fa-2x"></i>
             </div>
-            <p>
+            <p class="mx-auto">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -118,7 +119,7 @@
             </p>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <p>
+            <p class="mx-auto">
               At vero eos et accusamus et iusto odio dignissimos ducimus qui
               blanditiis praesentium voluptatum deleniti atque corrupti quos
               dolores et quas molestias excepturi sint occaecati cupiditate non
@@ -142,7 +143,7 @@
             <div class="iconos">
               <i class="fas fa-route fa-2x"></i>
             </div>
-            <p>
+            <p class="mx-auto">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -163,65 +164,98 @@
       </div>
     </section>
 
-    <section class="destacados">
-      <h2 id="destacado" class="title-center">DESTACADOS</h2>
-      <div class="container destacados-contenedor">
-        <div class="row justify-content-center mx-auto">
-          <!-- CARD 1 -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
+    <h2 id="destacado" class="title-center">DESTACADOS</h2>
+    <div class="container destacados-contenedor">
+      <div class="row justify-content-center">
+        <!-- CARD 1 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card mx-auto">
+            <img
+              src="assets/img/card1.jpg"
+              class="card-img-top"
+              alt="paisaje"
+              width="304"
+              height="228"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
           </div>
-          <!-- CARD 2 -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
+        </div>
+        <!-- CARD 2 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card mx-auto">
+            <img
+              src="assets/img/card2.jpg"
+              class="card-img-top"
+              alt="montañas"
+              width="304"
+              height="228"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
           </div>
-          <!-- CARD 3  -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
+        </div>
+        <!-- CARD 3  -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card mx-auto">
+            <img
+              src="assets/img/card3.jpg"
+              class="card-img-top"
+              alt="lago"
+              width="304"
+              height="228"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
           </div>
-          <!-- CARD 4 -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
+        </div>
+        <!-- CARD 4 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card mx-auto">
+            <img
+              src="assets/img/card4.jpg"
+              class="card-img-top"
+              alt="selva"
+              width="304"
+              height="228"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <section id="contacto">
+      <h2 class="texto-contacto">Contacto</h2>
+      <div class="container contenedor-contacto">
+        <div data-tf-widget="g80IS3yG" style="width: 100%; height: 400px"></div>
+        <script src="//embed.typeform.com/next/embed.js"></script>
+      </div>
     </section>
 
-    <section class="contactos"></section>
-
-    <footer id="contacto">
+    <!-- FOOTER -->
+    <footer>
       <div class="container viajes-footer">
         <h2 class="texto-footer">VIAJES CHILE</h2>
         <div class="iconos-del-footer">
@@ -245,6 +279,16 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+      integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
       crossorigin="anonymous"
     ></script>
   </body>

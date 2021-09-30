@@ -7,6 +7,10 @@ html {
 
 /* ABOUT US  */
 
+.section-aboutUs {
+  display: none;
+}
+
 .title-center {
   color: #fff;
   text-align: center;
@@ -41,11 +45,11 @@ footer {
 
 .viajes-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   color: #fff;
   flex-wrap: nowrap;
-  padding: 0 90px;
+  margin-top: 30px;
 }
 
 .iconos-del-footer {
@@ -54,4 +58,31 @@ footer {
 
 .iconos-footer {
   margin-left: 10px;
+}
+
+.card {
+  margin-bottom: 40px;
+}
+
+.card-body {
+  background-color: #15aabf;
+}
+
+.texto-contacto {
+  text-align: center;
+  color: #fff;
+}
+
+.contenedor-contacto {
+  border-top: 1px #15aabf solid;
+}
+
+#navbarNav {
+  justify-content: end;
+}
+
+@media screen and (min-width: 1280px) {
+  .section-aboutUs {
+    display: block;
+  }
 }
