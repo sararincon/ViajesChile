@@ -1,6 +1,24 @@
+/* BODY */
 body {
   background-color: black;
   font-family: "Roboto", sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.collapse.navbar-collapse {
+  justify-content: end;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.fixed-top.scrolled {
+  background-color: #15aabf;
+  transition: background-color 200ms linear;
 }
 
 /* ABOUT US  */
@@ -14,12 +32,14 @@ body {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 20px;
+  font-weight: 700;
 }
 
 .aboutUsText {
   border-top: 1px #17a2b8 solid;
   color: #fff;
   padding-top: 40px;
+  font-weight: 400;
 }
 
 .iconos {
@@ -31,12 +51,35 @@ body {
   text-align: center;
 }
 
+/* CARDS */
 .destacados-contenedor {
   border-top: 1px #17a2b8 solid;
   color: #fff;
   padding-top: 40px;
 }
+.card {
+  margin-top: 30px;
+}
 
+.card-body {
+  background-color: #17a2b8;
+}
+
+.card-text {
+  font-weight: 400;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+/* CONTACTO */
+
+.contenedor-contacto {
+  border-top: 1px #17a2b8 solid;
+}
+
+/* FOOTER */
 footer {
   background-color: #17a2b8;
 }
@@ -53,6 +96,8 @@ footer {
 
 .texto-footer {
   padding-top: 7px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .iconos-del-footer {
@@ -72,36 +117,16 @@ footer {
   color: white;
 }
 
-.card {
-  margin-bottom: 40px;
-}
-
-.card-body {
-  background-color: #17a2b8;
-}
-
-.texto-contacto {
-  text-align: center;
-  color: #fff;
-}
-
-.contenedor-contacto {
-  border-top: 1px #17a2b8 solid;
-}
-
-#navbarNav {
-  justify-content: end;
-}
-
-.fixed-top.scrolled {
-  background-color: #15aabf;
-  transition: background-color 200ms linear;
-}
-
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 768px) {
+  /* NAVBAR */
+  .navbar-brand {
+    font-size: 30px;
+  }
+  /* ABOUT US */
   .section-aboutUs {
     display: block;
   }
+  /*FOOTER */
   .iconos-footer {
     margin-left: 10px;
     color: #fff;

@@ -12,8 +12,6 @@ $(function () {
   $(document).scroll(function () {
     var $nav = $(".fixed-top");
 
-    console.log("ASDASDASD", $nav);
-
-    $nav.toggleClass("scrolled", $(this).scrollTop() > 244);
+    $nav.toggleClass("scrolled", $(this).scrollTop() > 320);
   });
 });
