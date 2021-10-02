@@ -1,8 +1,6 @@
 body {
   background-color: black;
-}
-html {
-  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
 }
 
 /* ABOUT US  */
@@ -19,13 +17,13 @@ html {
 }
 
 .aboutUsText {
-  border-top: 1px #15aabf solid;
+  border-top: 1px #17a2b8 solid;
   color: #fff;
   padding-top: 40px;
 }
 
 .iconos {
-  background-color: #15aabf;
+  background-color: #17a2b8;
 }
 
 .iconos i {
@@ -34,13 +32,13 @@ html {
 }
 
 .destacados-contenedor {
-  border-top: 1px #15aabf solid;
+  border-top: 1px #17a2b8 solid;
   color: #fff;
   padding-top: 40px;
 }
 
 footer {
-  background-color: #15aabf;
+  background-color: #17a2b8;
 }
 
 .viajes-footer {
@@ -50,6 +48,11 @@ footer {
   color: #fff;
   flex-wrap: nowrap;
   margin-top: 30px;
+  height: 100px;
+}
+
+.texto-footer {
+  padding-top: 7px;
 }
 
 .iconos-del-footer {
@@ -58,6 +61,15 @@ footer {
 
 .iconos-footer {
   margin-left: 10px;
+  color: #fff;
+}
+
+.iconos-footer a {
+  text-decoration: none;
+}
+
+.fab {
+  color: white;
 }
 
 .card {
@@ -65,7 +77,7 @@ footer {
 }
 
 .card-body {
-  background-color: #15aabf;
+  background-color: #17a2b8;
 }
 
 .texto-contacto {
@@ -74,15 +86,29 @@ footer {
 }
 
 .contenedor-contacto {
-  border-top: 1px #15aabf solid;
+  border-top: 1px #17a2b8 solid;
 }
 
 #navbarNav {
   justify-content: end;
 }
 
-@media screen and (min-width: 1280px) {
+.fixed-top.scrolled {
+  background-color: #15aabf;
+  transition: background-color 200ms linear;
+}
+
+@media screen and (min-width: 990px) {
   .section-aboutUs {
     display: block;
+  }
+  .iconos-footer {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 30px;
+  }
+  .texto-footer {
+    padding-top: 7px;
+    font-size: 40px;
   }
 }
